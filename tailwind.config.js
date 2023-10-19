@@ -14,7 +14,6 @@ module.exports = {
       'custom-light-pink': '#F1C4F2',
     },
     fontFamily: {
-      'monoton': ['Monoton', 'cursive'],
       'notable': ['Notable', 'sans-serif'],
       'poppins': ['Poppins', 'sans-serif'],
     },
