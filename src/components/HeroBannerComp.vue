@@ -3,7 +3,8 @@
         <h1 class="text-8xl">INNOWAVE</h1>
         <h2 class="font-['Poppins'] w-80 text-center">Un média français mettant en valeur des innovations françaises</h2>
     </div>
-    <svg width="1029" height="851" viewBox="0 0 1029 851" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Make SVG ANIM -->
+    <!-- <svg width="1029" height="851" viewBox="0 0 1029 851" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g filter="url(#filter0_f_319_99)">
         <ellipse cx="343.5" cy="357" rx="266.5" ry="258" fill="#F3F14B" fill-opacity="0.65"/>
         </g>
@@ -38,7 +39,7 @@
         <feGaussianBlur stdDeviation="288.6" result="effect1_foregroundBlur_319_97"/>
         </filter>
         </defs>
-    </svg>
+    </svg> -->
 </template>
 
 <style>
@@ -49,6 +50,6 @@
     backdrop-filter: blur(70px);
     width: 100vw;
     height: 100vh;
-    box-shadow: 0 -60px 200px -100px #FFF inset;
+    box-shadow: 0 -20px 1650px 50px #fff inset;
 }
 </style>
