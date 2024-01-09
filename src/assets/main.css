@@ -6,7 +6,15 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: #313235;
+}
+
+h1 {
+  font-family: 'Notable', sans-serif;
+}
+
+a {
+  font-family: 'Kanit', sans-serif;
 }
