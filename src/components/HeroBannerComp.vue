@@ -44,7 +44,7 @@
 
 <style>
 .hero_banner_background {
-    background-image: url('../../public/images/noise_banner.png');
+    background-image: url('/images/noise_banner.png');
     background-repeat: round;
     background-size: 70%;
     backdrop-filter: blur(70px);
