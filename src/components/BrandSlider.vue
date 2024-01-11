@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-12 mx-28 my-12">
+  <div class="flex flex-col gap-12 mx-8 lg:mx-28 my-12">
     <div class="flex gap-8">
       <div v-for="(brand, i) in brands" :key="i" class="flex flex-col items-center gap-4">
         <img :src="'/images/brands/' + brand.img" :alt="brand.name + '-logo'" class="w-20">
@@ -13,7 +13,7 @@
 <script setup>
 const brands = [
   {
-    name: 'Oorion',
+    name: 'OOrion',
     img: 'oorion.svg',
     color: '#171F41'
   }

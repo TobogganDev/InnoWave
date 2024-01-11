@@ -1,6 +1,6 @@
 <template>
     <div class="hero_banner_background flex flex-col justify-center items-center gap-4">
-        <h1 class="text-8xl">INNOWAVE</h1>
+        <h1 class="text-5xl lg:text-8xl">INNOWAVE</h1>
         <h2 class="font-['Poppins'] w-80 text-center">Un média français mettant en valeur des innovations françaises</h2>
     </div>
     <!-- Make SVG ANIM -->
@@ -45,8 +45,8 @@
 <style>
 .hero_banner_background {
     background-image: url('/images/noise_banner.png');
-    background-repeat: round;
-    background-size: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
     backdrop-filter: blur(70px);
     width: 100vw;
     height: 100vh;

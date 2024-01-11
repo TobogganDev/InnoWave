@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-4 gap-8 my-12 mx-28">
+  <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 my-12 mx-8 lg:mx-28">
     <div v-for="item in teamMembers" :key="item.firstName" class="text-center flex flex-col items-center gap-4">
       <img :src="'/images/team/' + item.img" :alt="item.firstName" class="rounded-full w-36">
       <h4 class="capitalize font-bold text-3xl">{{ item.firstName }} {{ item.lastName }}</h4>
