@@ -26,7 +26,7 @@ const teamMembers = [
   {
     firstName: 'quentin',
     lastName: 'pacheu',
-    img: 'quentin.jpg',
+    img: 'quentin.jpeg',
     role: 'rédacteur',
     social: 'linkedin',
     link: 'https://www.linkedin.com/in/quentin-pacheu/'
@@ -34,7 +34,7 @@ const teamMembers = [
   {
     firstName: 'marc',
     lastName: 'moureau',
-    img: 'marc.jpg',
+    img: 'marc.jpeg',
     role: 'développeur',
     social: 'linkedin',
     link: 'https://www.linkedin.com/in/marc-moureau/'
@@ -58,7 +58,7 @@ const teamMembers = [
   {
     firstName: 'marvin',
     lastName: 'clerc',
-    img: 'marvin.jpg',
+    img: 'marvin.jpeg',
     role: 'graphiste',
     social: 'linkedin',
     link: 'https://www.linkedin.com/in/marvinclerc21/'
@@ -66,7 +66,7 @@ const teamMembers = [
   {
     firstName: 'arthur',
     lastName: 'pouteau',
-    img: 'arthur.jpg',
+    img: 'arthur.jpeg',
     role: 'chargé de contact',
     social: 'linkedin',
     link: 'https://www.linkedin.com/in/arthur-pouteau-a9b90b207/'
