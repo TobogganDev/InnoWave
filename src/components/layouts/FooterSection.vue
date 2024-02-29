@@ -24,7 +24,7 @@
       <a href="https://www.linkedin.com/company/innowavefr/" target="_blank">
         <i class="fa-brands fa-linkedin fa-2xl" style="color: #676767;"></i>
       </a>
-      <p>© 2023 Votre Nom de Société. Tous droits réservés</p>
+      <p>© 2023 InnoWave. Tous droits réservés</p>
     </div>
   </div>
 </template>

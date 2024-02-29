@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full z-10 absolute">
+    <div class="w-full z-10">
         <div class="max-w-md mx-auto flex flex-row items-center">
             <div class=" w-1/3 flex flex-row items-center justify-end gap-4 text-custom-black font-normal">
                 <router-link to="/" class="w-fit">Home</router-link>
