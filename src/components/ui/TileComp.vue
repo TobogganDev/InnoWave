@@ -1,17 +1,22 @@
-<script setup>
-</script>
-
 <template>
     <div class="relative tile lg:w-4/5 gap-8 flex flex-row items-center justify-between px-6 py-4 rounded-xl overflow-hidden">
         <div>
-            <h3 class="z-[2] font-bold text-2xl">Que fait-on</h3>
-            <p class="z-[2] font-light text-sm">InnoWave est le média de référence sur LinkedIn dédié à la mise en lumière des start-ups et des entreprises qui proposent des innovations révolutionnaires dans le monde des affaires. Notre mission est de connecter les esprits créatifs et les innovateurs avec un public mondial avide de découvrir les technologies et les idées qui transforment l'avenir.</p>
+            <h3 class="z-[2] font-bold text-2xl">{{ content.title }}</h3>
+            <p class="z-[2] font-light text-sm">{{ content.text }}</p>
         </div>
         <div>
             <font-awesome-icon icon="chevron-right" class="z-[2] cursor-pointer"/>
         </div>
     </div>
 </template>
+
+<script setup>
+const props = defineProps({
+    content: Object
+})
+
+console.log(props.content)
+</script>
 
 <style>
 .tile {
@@ -25,5 +30,4 @@
 .tile:hover {
     cursor: pointer;
 }
-
 </style>
