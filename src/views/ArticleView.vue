@@ -1,6 +1,6 @@
 <template>
   <HeaderComp class="absolute"/>
-  <div class="py-36 px-56 flex gap-4 flex-col" v-html="article.content"></div>
+  <div class="py-36 px-56 flex gap-3 flex-col" v-html="article.content"></div>
 </template>
 
 <script setup>
