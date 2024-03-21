@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    {{  }}
   </div>
 </template>
 
@@ -14,7 +14,7 @@ const articleId = ref(route.params.id);
 const article = ref(null);
 
 let test = articles.articles
-console.log(test);
+console.log(articleId.value);
 
 onMounted(() => {
   const foundArticle = test.find(article => article.id === articleId.value);
