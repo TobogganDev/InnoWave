@@ -15,7 +15,7 @@ const props = defineProps({
     content: Object
 })
 
-console.log(props.content)
+// console.log(props.content)
 </script>
 
 <style>

@@ -5,26 +5,21 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import articles from '../articles.json';
 
 const route = useRoute();
 const articleId = ref(route.params.id);
-const article = ref(null);
 
-let test = articles.articles
-console.log(articleId.value);
+const article = computed(() => {
+  var foundArticle = articles.articles.find(article => article.id == articleId.value);
+  return foundArticle;
+})
 
-onMounted(() => {
-  const foundArticle = test.find(article => article.id === articleId.value);
-  console.log(foundArticle);
-  article.value = foundArticle;
-});
-
-console.log(article.value);
+console.log(article);
 </script>
 
 <style lang="scss" scoped>
 
-</style>
+</style>, computed
