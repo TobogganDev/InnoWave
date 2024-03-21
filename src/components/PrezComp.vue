@@ -1,5 +1,11 @@
 <template>
-    <div class="my-28 lg:h-screen w-screen flex flex-col lg:flex-row items-center lg:justify-around">
+    <div class="relative">
+        <a href="https://www.linkedin.com/company/innowavefr" target="_blank" class="flex gap-4 items-center absolute -translate-x-2/4 translate-y-0 text-2xl no-underline text-center cursor-pointer transition-[0.3s] duration-[all] ease-[ease] px-8 py-4 rounded-2xl border-2 border-solid border-[#A275CB] left-2/4 top-[15vh] hover:bg-[#A275CB] hover:text-[white]">
+            <i class="fa-brands fa-linkedin"></i>
+            Rejoignez-nous sur LinkedIn ->
+        </a>
+    </div>
+    <div class="my-28 lg:h-[120vh] w-screen flex flex-col lg:flex-row items-center lg:justify-around">
         <img src="/images/logo.png" alt="logo_innowave" class="w-1/5">
         <div class="flex gap-5 flex-col items-end px-8 lg:w-3/5">
             <TileComp :content="cardContent[0]"/>
